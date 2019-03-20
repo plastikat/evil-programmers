@@ -7,7 +7,7 @@ import
   from require'editorsettings_helpers'
 class Java extends UnixSources
   Title: "Java"
-  Type: "*.java,*.groovy,*.gsp,Jenkinsfile"
+  Type: "*.java,*.groovy,*.gsp,*Jenkinsfile*"
   CodePage: 65001
   TabSize: 2
   ExpandTabs: true
