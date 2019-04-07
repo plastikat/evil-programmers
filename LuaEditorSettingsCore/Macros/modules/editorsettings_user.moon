@@ -16,6 +16,7 @@ schemes=Schemes!
 -- Start of user modules import lines
 schemes\add_items require'editorsettings.autohotkey'
 schemes\add_items require'editorsettings.colorer'
+schemes\add_items require'editorsettings.icinga_dsl'
 schemes\add_items require'editorsettings.java'
 schemes\add_items require'editorsettings.json'
 schemes\add_items require'editorsettings.python'
