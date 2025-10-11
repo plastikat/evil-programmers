@@ -24,8 +24,9 @@ colors={
 }
 
 (line,addcolor)->
-  field='"'*(((P 1)-'"')+P'""')^0*'"'+(1-S',"')^0
-  comma=P','
+  field_sep=','
+  field='"'*(((P 1)-'"')+P'""')^0*'"'+(1-S field_sep..'"')^0
+  comma=P field_sep
   posB,posU,ii=1,1,0
   while true
     res=field\match line,posB
