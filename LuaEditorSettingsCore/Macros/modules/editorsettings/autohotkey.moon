@@ -9,7 +9,7 @@ class AutoHotkey extends Sources
   Type: "*.ahk"
   CodePage: 65001
   TabSize: 4
-  ExpandTabs: false
+  ExpandTabs: 0
   SmartHome: true
   SetBOM: true
 {

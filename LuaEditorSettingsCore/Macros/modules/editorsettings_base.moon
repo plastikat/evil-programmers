@@ -14,7 +14,7 @@ class CFarSources extends Sources
   Title: "Far C/C++ Sources"
   Type: (Compare,FileName)->FarFolder Compare,CMask,FileName
   TabSize: 4
-  ExpandTabs: false
+  ExpandTabs: 0
   ShowWhiteSpace: 2
   WhiteSpaceColor: WhiteSpaceColor
   Weight: 100
@@ -44,7 +44,7 @@ class Makefile extends UnixSources
   Type: "*makefile*,*.mak"
   Highlite:require'highlite.make'
   TabSize: 8
-  ExpandTabs: false
+  ExpandTabs: 0
 class MFourFar extends Sources
   Title: "Far m4"
   Type: (Compare,FileName)->FarFolder Compare,MFourMask,FileName
@@ -103,7 +103,7 @@ class Postscript
 class Binaries
   LockMode: true
   TabSize: 8
-  ExpandTabs: false
+  ExpandTabs: 0
   AutoIndent: false
   CharCodeBase: 2
 class Executables extends Binaries
@@ -155,7 +155,7 @@ class ChangeLogCore extends Texts
 class ChangeLogFar extends ChangeLogCore
   Title: "ChangeLog far"
   Type: (Compare,FileName)->FarFolder Compare,ChangeLogMask,FileName
-  ExpandTabs: false
+  ExpandTabs: 0
   ShowWhiteSpace: 2
   WhiteSpaceColor: WhiteSpaceColor
   Weight: 100
@@ -169,7 +169,7 @@ class Xml extends Sources
   Title: "xml"
   Type: "*.xml,*.xsl"
   TabSize: 8
-  ExpandTabs: false
+  ExpandTabs: 0
 class Html extends Xml
   Title: "html"
   Type: "*.htm,*.html,*.shtml,*.php,*.css"

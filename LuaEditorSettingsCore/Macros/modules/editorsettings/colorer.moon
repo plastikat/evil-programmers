@@ -6,7 +6,7 @@ class Colorer extends Xml
   Type: "*.hrc,*.hrd"
   CodePage: 65001
   TabSize: 2
-  ExpandTabs: true
+  ExpandTabs: 1
   SetBOM: false
 {
   :Colorer

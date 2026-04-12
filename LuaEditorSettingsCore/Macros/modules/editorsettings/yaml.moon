@@ -9,7 +9,7 @@ class YAML extends UnixSources
   }
   CodePage: 65001
   TabSize: 2
-  ExpandTabs: true
+  ExpandTabs: 1
   SetBOM: false
 {
   :YAML

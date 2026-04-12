@@ -10,7 +10,7 @@ class Python extends UnixSources
   }
   CodePage: 65001
   TabSize: 4
-  ExpandTabs: true
+  ExpandTabs: 1
   SmartHome: true
   SetBOM: false
 {

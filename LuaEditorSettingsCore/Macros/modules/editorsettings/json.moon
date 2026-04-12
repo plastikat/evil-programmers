@@ -9,7 +9,7 @@ class JSON extends Sources
   }
   CodePage: 65001
   TabSize: 2
-  ExpandTabs: true
+  ExpandTabs: 1
   SetBOM: false
 {
   :JSON

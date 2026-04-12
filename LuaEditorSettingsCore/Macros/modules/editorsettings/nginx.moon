@@ -17,7 +17,7 @@ class Nginx extends UnixSources
   Type: (Compare,FileName)->NginxFolder Compare,NginxMask,FileName
   CodePage: 65001
   TabSize: 4
-  ExpandTabs: true
+  ExpandTabs: 1
   SmartHome: true
   SetBOM: false
 {

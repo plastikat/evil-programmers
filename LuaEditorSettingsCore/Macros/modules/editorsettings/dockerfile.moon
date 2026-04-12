@@ -6,7 +6,7 @@ class Dockerfile extends UnixSources
   Type: "*Dockerfile*"
   CodePage: 65001
   TabSize: 4
-  ExpandTabs: true
+  ExpandTabs: 1
   SmartHome: true
   SetBOM: false
 {

@@ -10,7 +10,7 @@ class Java extends UnixSources
   Type: "*.java,*.groovy,*.gsh,*.gsp,*.gvy,*.gy,*Jenkinsfile*"
   CodePage: 65001
   TabSize: 2
-  ExpandTabs: true
+  ExpandTabs: 1
   SetBOM: false
 {
   :Java

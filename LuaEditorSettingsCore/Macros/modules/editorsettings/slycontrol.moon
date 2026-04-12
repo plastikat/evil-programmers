@@ -6,7 +6,7 @@ class SlyControl extends Sources
   Type: "*.scs"
   CodePage: 1251
   TabSize: 2
-  ExpandTabs: true
+  ExpandTabs: 1
   SetBOM: false
 {
   :SlyControl
