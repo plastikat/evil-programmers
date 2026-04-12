@@ -21,23 +21,23 @@ class CFarSources extends Sources
 class CSources extends Sources
   Title: "C/C++ Sources"
   Type: CMask
-  ExpandTabs: 1
+  ExpandTabs: 2
 class PasSources extends Sources
   Title: "Pascal Sources"
   Type: "*.pas,*.dpr,*.pp,*.lpr"
-  ExpandTabs: 1
+  ExpandTabs: 2
 class RustSources extends UnixSources
   Title: "Rust Sources"
   Type: "*.rs"
-  ExpandTabs: 1
+  ExpandTabs: 2
 class LuaSources extends Sources
   Title: "Lua & MoonScript Sources"
   Type: "*.lua,*.moon"
-  ExpandTabs: 1
+  ExpandTabs: 2
 class Io extends Sources
   Title: "Io Sources"
   Type: "*.io"
-  ExpandTabs: 1
+  ExpandTabs: 2
   Highlite:require'highlite.io'
 class Makefile extends UnixSources
   Title: "makefile"
